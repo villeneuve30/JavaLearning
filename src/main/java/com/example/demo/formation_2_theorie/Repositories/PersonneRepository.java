@@ -10,9 +10,9 @@ import java.util.List;
 
 public interface PersonneRepository extends JpaRepository<Personne, Long> {
 
-    @Query("SELECT f FROM Formateur")
-    List<Formateur> findAllFormateurs();
-
-    @Query("SELECT S FROM Stagiaire")
-    List<Stagiaire> findAllStagiaires();
+//    @Query("SELECT f FROM Formateur")
+//    List<Formateur> findAllFormateurs();
+//
+//    @Query("SELECT S FROM Stagiaire")
+//    List<Stagiaire> findAllStagiaires();
 }

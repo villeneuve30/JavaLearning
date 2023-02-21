@@ -7,5 +7,4 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import java.util.HashSet;
 
 public interface SiteDeFouilleRepository extends JpaRepository<SiteDeFouille, Long> {
-    public HashSet<Equipe> findAllBySiteDeFouille(SiteDeFouille siteDeFouille);
 }
