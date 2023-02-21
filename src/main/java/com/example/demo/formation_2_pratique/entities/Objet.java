@@ -12,7 +12,9 @@ public class Objet {
     private Long id;
 
     @ManyToOne
-    @JoinColumn(name = "fouille_id")
+    @JoinColumn(name = "equipe_id", referencedColumnName = "equipe_id")
+    @JoinColumn(name = "parcelle_id", referencedColumnName = "parcelle_id")
+    @JoinColumn(name = "date_fouille", referencedColumnName = "date_fouille")
     private Fouille fouille;
 
     @Column(name = "designation", nullable = false)

@@ -16,6 +16,7 @@ public class Fouille {
     @Id private Parcelle parcelle;
 
     @Temporal(TemporalType.DATE)
+    @Column(name = "date_fouille")
     @Id private Date date;
 
     public Fouille() {
