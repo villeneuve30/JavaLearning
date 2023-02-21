@@ -1,9 +1,9 @@
 package com.example.demo.formation_2_pratique.repositories;
 
-import com.example.demo.formation_2_pratique.entities.Equipe;
-import com.example.demo.formation_2_pratique.entities.Fouille;
-import com.example.demo.formation_2_pratique.entities.PKFouille;
+import com.example.demo.formation_2_pratique.entities.*;
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.repository.query.Param;
 
 import java.util.HashMap;
 import java.util.HashSet;
